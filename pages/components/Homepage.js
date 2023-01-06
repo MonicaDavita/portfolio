@@ -1,5 +1,6 @@
 import React from "react";
 import { HiOutlineChevronDown } from "react-icons/hi";
+import Image from "next/image";
 
 const Homepage = () => {
     return (

@@ -31,7 +31,7 @@ const Navbar = () => {
                         <Link href='/'>
                             <div className="flex justify-between">
                                 <li className="ml-20 text-sm uppercase hover:border-b">
-                                    Portfolios
+                                    Projects
                                 </li>
                                 <RiArrowDropDownLine className="pb-2"/>
                             </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                 <li className="py-4 text-sm">About Me</li>
                             </Link>
                             <Link href='/'>
-                                <li className="py-4 text-sm">Portfolios</li>
+                                <li className="py-4 text-sm">Projects</li>
                             </Link>
                             <Link href='/'>
                                 <li className="py-4 text-sm">Services</li>
