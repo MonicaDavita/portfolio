@@ -10,7 +10,7 @@ const ProjectItems = ( {title, backgroundImg, projectUrl, projectMade} ) => {
                 <h3 className="text-2xl text-[#745C97] tracking-wider text-center font-extrabold">{title}</h3>
                 <p className="pb-4 pt-2 text-[#745C97] text-center font-semibold">{projectMade}</p>
                 <Link href={projectUrl}>
-                    <p className="text-center py-3 rounded-lg bg-[#745C97] text-white font-bold text-lg cursor-pointer font-bold">Explore More</p>
+                    <p className="text-center py-3 rounded-lg bg-[#745C97] text-white text-lg cursor-pointer font-bold">Explore More</p>
                 </Link>
             </div>
         </div>

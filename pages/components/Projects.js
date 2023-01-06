@@ -9,7 +9,7 @@ const Projects = () => {
                 <div className="grid md:grid-cols-2 gap-8 pt-4">
 
                     <ProjectItems title='The Journey' backgroundImg='/../public/assets/journal.png' projectUrl='/journal' projectMade='React JS' />
-                    <ProjectItems title='Mamade' backgroundImg='/../public/assets/Mamade.png' projectUrl='/mamade' projectMade='Next / React JS' />
+                    <ProjectItems title='Mamade' backgroundImg='/../public/assets/Mamade.png' projectUrl='/mamade' projectMade='PHP Laravel' />
                     <ProjectItems title='The Seesoon' backgroundImg='/../public/assets/seesoon.png' projectUrl='/seesoon' projectMade='Kotlin' />
                     <ProjectItems title='Sinta Store' backgroundImg='/../public/assets/sinta.png' projectUrl='/sinta' projectMade='Next / React JS' />
 
