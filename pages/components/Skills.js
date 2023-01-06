@@ -3,7 +3,7 @@ import Image from "next/image";
 const Skills = () => {
     return (
         <div className="w-full lg:h-screen p-2 bg-gradient-to-b from-[#F6D6E3] to-[#39375B]">
-            <div className="max-w-[1240px] mx-auro flex flex-col justify-center h-full">
+            <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
                 <h1 className="uppercase text-[30px] md:text-[60px] font-extrabold leading-[100%] text-white text-center">Skills</h1>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
