@@ -1,47 +1,59 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs"
+import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs"
 import { RiArrowDropDownLine } from "react-icons/ri";
 const Navbar = () => {
     const [nav, setNav] = useState(false)
-
+    const [shadow, setShadow] = useState(false)
     const handleNav = () => {
         setNav(!nav)
-
     }
+
+    useEffect( () => {
+            const handleShadow = () => {
+                if (window.scrollY >= 90) {
+                    setShadow(true)
+                } else {
+                    setShadow(false)
+                }
+            }
+            window.addEventListener('scroll', handleShadow)
+        }, []
+    );
+
     return (
-        <div className="fixed w-full h-20 z-[100] text-white font-semibold text-[32px] px-10">
-            <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Image className="pt-4" src='/../public/assets/iconfix.png' alt='/' width='50' height='20' />
+        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#F6D6E3]' : 'fixed w-full h-20 z-[100]' }>
+            <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 text-[#39375B] font-semibold text-[32px]">
+                <Image className="py-4" src='/../public/assets/iconfix.png' alt='/' width='50' height='20' />
                 <div>
                     <ul className="hidden md:flex">
-                        <Link href='/'>
+                        <Link href='#homepage'>
                             <li className="ml-20 text-sm uppercase hover:border-b">
                                 Homepage
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#about'>
                             <li className="ml-20 text-sm uppercase hover:border-b">
                                 About Me
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#projects'>
                             <div className="flex justify-between">
                                 <li className="ml-20 text-sm uppercase hover:border-b">
                                     Projects
                                 </li>
-                                <RiArrowDropDownLine className="pb-2"/>
+                                <RiArrowDropDownLine className="pb-2" />
                             </div>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#skills'>
                             <li className="ml-20 text-sm uppercase hover:border-b">
                                 Skills
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#contact'>
                             <li className="ml-20 text-sm uppercase hover:border-b">
                                 Contact
                             </li>
@@ -67,19 +79,19 @@ const Navbar = () => {
                     </div>
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
-                            <Link href='/'>
+                            <Link href='/#homepage'>
                                 <li className="py-4 text-sm">Homepage</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/#about'>
                                 <li className="py-4 text-sm">About Me</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/#projects'>
                                 <li className="py-4 text-sm">Projects</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/#skills'>
                                 <li className="py-4 text-sm">Skills</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/#contact'>
                                 <li className="py-4 text-sm">Contact</li>
                             </Link>
                         </ul>

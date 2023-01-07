@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Homepage = () => {
     return (
-        <div className="w-full h-screen text-center bg-hero bg-cover">
+        <div id="homepage" className="w-full h-screen text-center bg-hero bg-cover">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div className="pt-4 tracking-widest text-white">
                     <p className="py-4 flex justify-center text-[16px] md:text-[24px] font-semibold">Be more than awesome together with..</p>

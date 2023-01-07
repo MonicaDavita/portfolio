@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs"
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 const Contact = () => {
     return (
-        <div className="w-full min-h-screen p-2 bg-[#39375B] bg-cover text-white">
+        <div id="contact" className="w-full min-h-screen p-2 bg-[#39375B] bg-cover text-white">
             <div className="max-w-[1240px] mx-auto px-2 py-16 h-full">
                 <h1 className="uppercase text-[30px] md:text-[60px] font-extrabold leading-[100%] text-center">Contact</h1>
                 <div className="grid lg:grid-cols-5 gap-8 py-4">
@@ -76,8 +76,8 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-center py-12">
                     <Link href='/'>
-                        <div className="rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-105 ease-in duration bg-gradient-to-b from-[#C682BE] to-[#F7D8E4]">
-                            <HiOutlineChevronDoubleUp size={30} className='m-auto text-[#39375B]' />
+                        <div className="rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-105 ease-in duration bg-gradient-to-b from-[#C682BE] to-[#F7D8E4] animate-bounce">
+                            <HiOutlineChevronDoubleUp size={30} className='m-auto text-[#39375B] ' />
                         </div>
                     </Link>
                 </div>
