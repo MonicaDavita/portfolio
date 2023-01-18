@@ -105,7 +105,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className="pt-3">
-                            <p className="uppercase tracking-widest text-white font-bold text-[16px]">Let's Connect</p>
+                            <p className="uppercase tracking-widest text-white font-bold text-[16px]">Let&apos;s Connect</p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <a href="https://www.linkedin.com/in/monica-davita/" target='_blank' rel='noreferrer'>
                                 <div className="rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration">
