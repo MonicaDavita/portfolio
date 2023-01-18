@@ -13,7 +13,7 @@ const theJour = () => {
                         className='opacity-10'
                         fill
                         style={{ objectFit: 'cover' }}
-                        src='/../public/assets/journal.png'
+                        src='/../public/assets/the-jour.jpeg'
                         alt='/'
                     />
                     <div className='relative top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -44,7 +44,7 @@ const theJour = () => {
                             <button className='px-8 py-2 mt-4 mr-8 text-[#39375B] bg-gradient-to-r from-[#C682BE] to-[#F7D8E4] font-bold rounded-3xl hover:-translate-y-1 hover:scale-105 duration-200'>Github</button>
                         </a>
                         <a
-                            href=''
+                            href='https://the-jour.vercel.app/'
                             target='_blank'
                             rel='noreferrer'>
                             <button className='px-8 py-2 mt-4 mr-8 text-white bg-gradient-to-r from-[#39375B] to-[#C682BE] font-bold rounded-3xl hover:-translate-y-1 hover:scale-105 duration-200'>Find Out</button>
