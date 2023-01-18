@@ -4,7 +4,7 @@ import { AiOutlineCheckCircle } from 'react-icons/ai'
 import { IoIosArrowBack } from 'react-icons/io'
 import Link from 'next/link'
 import Head from 'next/head'
-import theJour from '../public/assets/the-jour.jpeg'
+import theJourPict from '../public/assets/the-jour.jpeg'
 
 const theJour = () => {
     return (
@@ -21,7 +21,7 @@ const theJour = () => {
                         className='opacity-10'
                         fill
                         style={{ objectFit: 'cover' }}
-                        src={theJour}
+                        src={theJourPict}
                         alt='/'
                     />
                     <div className='relative top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
