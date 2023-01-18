@@ -60,7 +60,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/figma.png' alt='/' width='64' height='64' />
+                                <Image src='/../public/assets/figma.png' alt='/' width='32' height='32' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">Figma</h3>
@@ -83,7 +83,7 @@ const Skills = () => {
                                 <Image src='/../public/assets/microsoft.png' alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3 className="text-xl text-white tracking-wider font-extrabold">Microsoft Office</h3>
+                                <h3 className="text-xl text-white tracking-wider font-extrabold text-center">Microsoft Office</h3>
                             </div>
                         </div>
                     </div>

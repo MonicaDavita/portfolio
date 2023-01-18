@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div id="about" className="w-full h-screen flex items-center bg-gradient-to-b from-[#92657C] to-[#C682BE]">
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-4">
                 <div className="col-span-3 text-white">
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center mt-16">
                         <Image src='/../public/assets/profile.jpeg' alt='/' width='200' height='250' className="rounded hover:scale-105 ease-in duration-300 mr-3" />
                         <Image src='/../public/assets/Education.png' alt='/' width='120' height='170' />
                     </div>
