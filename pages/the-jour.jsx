@@ -38,8 +38,8 @@ const theJour = () => {
                             Description
                         </h2>
                         <p className='text-justify'>
-                            The Jour is a personal journal in a form of web-blog platform. Mostly build with ReactJS (using NextJS as the framework) and Tailwind for the fontend.
-                            Also GraphQL and GraphCMS for the beckend. This blog contains of the writer's journey in every aspect, which are spiritual, social, academic, self-development, and many more.
+                            The Jour is a personal journal in a form of web-blog platform. Mostly build with ReactJS--using NextJS as the framework, and Tailwind for the fontend.
+                            For the backend, this project uses GraphQL and GraphCMS. This blog contains of the writer&apos;s journey in every aspect, which are spiritual, social, academic, self-development, and many more.
                             In addition, this web will post about software-stuff especially in the field of Frontend Engineer and UI/UX. This project is the pioneer of my journey as a frontend developer and the UI/UX,
                             hopefully I can improve this platform so maybe others can also share their journey by being able to create an account and post it to the web.
                         </p>
