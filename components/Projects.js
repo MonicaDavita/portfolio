@@ -1,5 +1,10 @@
 import React from "react";
 import ProjectItems from "./ProjectItems";
+import theJour from '../public/assets/the-jour.jpeg'
+import alaHome from '../public/assets/alahome.png'
+import theSeesoon from '../public/assets/seesoon.png'
+import sintaStore from '../public/assets/sinta.png'
+
 
 const Projects = () => {
     return (
@@ -8,10 +13,10 @@ const Projects = () => {
                 <h1 className="uppercase tracking-widest text-[30px] md:text-[60px] font-extrabold leading-[100%] flex justify-center items-center mt-8"> PROJECTS </h1>
                 <div className="grid md:grid-cols-2 gap-8 pt-4">
 
-                    <ProjectItems title='The Jour' backgroundImg='/../public/assets/the-jour.jpeg' projectUrl='/the-jour' projectMade='ReactJS with NextJS' projecStatus='Read More' />
-                    <ProjectItems title='Ala Home' backgroundImg='/../public/assets/alahome.png' projectUrl='/mamade' projectMade='Kotlin' projecStatus='Coming Soon' />
-                    <ProjectItems title='The Seesoon' backgroundImg='/../public/assets/seesoon.png' projectUrl='/seesoon' projectMade='ReactJS with Laravel' projecStatus='Coming Soon' />
-                    <ProjectItems title='Sinta Store' backgroundImg='/../public/assets/sinta.png' projectUrl='/sinta' projectMade='Group Project - Next / React JS' projecStatus='Github' />
+                    <ProjectItems title='The Jour' backgroundImg={theJour} projectUrl='/the-jour' projectMade='ReactJS with NextJS' projecStatus='Read More' />
+                    <ProjectItems title='Ala Home' backgroundImg={alaHome} projectUrl='/mamade' projectMade='Kotlin' projecStatus='Coming Soon' />
+                    <ProjectItems title='The Seesoon' backgroundImg={theSeesoon} projectUrl='/seesoon' projectMade='ReactJS with Laravel' projecStatus='Coming Soon' />
+                    <ProjectItems title='Sinta Store' backgroundImg={sintaStore} projectUrl='/sinta' projectMade='Group Project - Next / React JS' projecStatus='Github' />
 
                 </div>
             </div>

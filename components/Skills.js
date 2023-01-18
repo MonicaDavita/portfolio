@@ -1,5 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import html from '../public/assets/html.png'
+import css from '../public/assets/css.png'
+import javascript from '../public/assets/javascript.png'
+import react from '../public/assets/react.png'
+import tailwind from '../public/assets/tailwind.png'
+import figma from '../public/assets/figma.png'
+import sql from '../public/assets/sql.png'
+import msoffice from '../public/assets/microsoft.png'
+
 const Skills = () => {
     return (
         <div id="skills" className="w-full lg:h-screen p-2 bg-gradient-to-b from-[#F6D6E3] to-[#39375B]">
@@ -10,7 +19,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/html.png' alt='/' width='64' height='64' />
+                                <Image src={html} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">HTML</h3>
@@ -20,7 +29,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/css.png' alt='/' width='64' height='64' />
+                                <Image src={css} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">CSS</h3>
@@ -30,7 +39,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/javascript.png' alt='/' width='64' height='64' />
+                                <Image src={javascript} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">JavaScript</h3>
@@ -40,7 +49,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/react.png' alt='/' width='64' height='64' />
+                                <Image src={react} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">React</h3>
@@ -50,7 +59,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/tailwind.png' alt='/' width='64' height='64' />
+                                <Image src={tailwind} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">Tailwind</h3>
@@ -60,7 +69,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/figma.png' alt='/' width='32' height='32' />
+                                <Image src={figma} alt='/' width='32' height='32' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">Figma</h3>
@@ -70,7 +79,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/sql.png' alt='/' width='64' height='64' />
+                                <Image src={sql} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold">SQL</h3>
@@ -80,7 +89,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/microsoft.png' alt='/' width='64' height='64' />
+                                <Image src={msoffice} alt='/' width='64' height='64' />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="text-xl text-white tracking-wider font-extrabold text-center">Microsoft Office</h3>
