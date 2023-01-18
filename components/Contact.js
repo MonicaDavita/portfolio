@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import contact from '../public/assets/contact.png'
 const Contact = () => {
     return (
         <div id="contact" className="w-full min-h-screen bg-[#39375B] bg-cover">
@@ -15,7 +16,7 @@ const Contact = () => {
                     <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-black rounded-xl p-4 text-white">
                         <div className="lg:p-4 h-full">
                             <div className="flex justify-center items-center">
-                                <Image className="rounded-xl hover:scale-105 ease-in duration-300" src='/../public/assets/contact.png' width='300' height='250' />
+                                <Image className="rounded-xl hover:scale-105 ease-in duration-300" src={contact} width='300' height='250' alt="/" />
                             </div>
                             <div>
                                 <h2 className="py-2 uppercase text-[30px] md:text-[40px] font-bold text-center">Monica Narda Davita</h2>

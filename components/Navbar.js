@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs"
 import { RiArrowDropDownLine } from "react-icons/ri";
+import icon from '../public/assets/iconfix.png'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
@@ -32,7 +33,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center w-full h-full p-4 2xl:px-16 text-[#39375B] font-semibold text-[32px]">
                 <Link legacyBehavior href='/'>
                     <a>
-                        <Image className="py-4 cursor-pointer" src='/../public/assets/iconfix.png' alt='/' width='50' height='20' />
+                        <Image className="py-4 cursor-pointer" src={icon} alt='/' width='50' height='20' />
                     </a>
                 </Link>
                 <div>
@@ -74,7 +75,7 @@ const Navbar = () => {
                         <div className="flex w-ful items-center justify-between">
                             <Link legacyBehavior href='/'>
                                 <a>
-                                    <Image src='/../public/assets/iconfix.png' alt='/' width='50' height='20' />
+                                    <Image src={icon} alt='/' width='50' height='20' />
 
                                 </a>
                             </Link>
