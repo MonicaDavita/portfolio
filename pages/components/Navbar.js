@@ -28,7 +28,7 @@ const Navbar = () => {
     );
 
     return (
-        <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+        <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-16 shadow-xl z-[100]' : 'fixed w-full h-16 z-[100]'}>
             <div className="flex justify-between items-center w-full h-full p-4 2xl:px-16 text-[#39375B] font-semibold text-[32px]">
                 <Link legacyBehavior href='/'>
                     <a>

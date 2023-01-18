@@ -13,10 +13,9 @@ const AboutMe = () => {
 
                     <div className="text-center md:my-2 my-4">
                         <h1 className="uppercase text-[30px] md:text-[60px] font-extrabold leading-[100%]">ABOUT ME</h1>
-                        <h3 className="md:w-[600px] mx-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                            ea commodo consequat.
+                        <h3 className="md:w-[600px] mx-10">I am a junior student majoring in Informatics Engineering who is a determined person,
+                            a planner, and a goal-getter. A good communicator who could understand and deal with people skillfully.
+                            Also well known as The Liable One and The Enthusiast One. Currently, focus on learning UI/UX and Frontend Engineer.
                         </h3>
                     </div>
                 </div>
