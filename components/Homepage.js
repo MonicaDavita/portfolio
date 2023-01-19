@@ -15,12 +15,14 @@ const Homepage = () => {
                         <h1 className="uppercase text-[50px] md:text-[100px] font-extrabold leading-[100%]">Narda</h1>
                         <h1 className="uppercase text-[50px] md:text-[100px] font-extrabold leading-[100%]">Davita</h1>
                     </div>
-                    <div className="grid grid-rows-2 justify-center text-center pt-4">
-                        <Link href="#about">
-                            <p className="flex justify-center text-[18px] md:text-[24px] font-thin italic hover:border-b">Get Started</p>
-                            <HiOutlineChevronDown className="ml-10 md:ml-12 animate-bounce w-[36px] h-[36px]" />
-                        </Link>
-                    </div>
+                    <Link href="#about" className="flex items-center justify-center">
+                        <div className="grid grid-rows-2 justify-center items-center text-center pt-4">
+                            <p className="flex justify-center text-[18px] md:text-[24px] font-thin italic hover:border-b items-center text-center">Get Started</p>
+                            <div className="flex justify-center items-center">
+                                <HiOutlineChevronDown className="animate-bounce w-[36px] h-[36px]" />
+                            </div>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -123,7 +123,7 @@ const Navbar = () => {
                                     <AiOutlineMail />
                                 </div>
                                 </Link>
-                                <a href="wa.me/+62895342292555">
+                                <a href="https://wa.me/+62895342292555">
                                 <div className="rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration">
                                     <BsFillPersonLinesFill />
                                 </div>
